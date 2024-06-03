@@ -1,0 +1,62 @@
+  .form-wrapper{
+
+     display: flex; /* alt alta gelmesini sağladım */
+     flex-direction: column; 
+     width: 100%;
+     margin: 20px 0px; /* yukarıdan aşagıdan 20px boşluk bırak sağı solu elleme*/
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column; /* alt alta dizil*/
+    align-items: center;
+  }
+
+  #searchİnput{
+     width: 75%;
+     padding: 6px;
+     border-radius: 5px;
+     text-align: center;
+  }
+
+  .button-wrapper{
+    margin: 10px 0px;
+  }
+
+  #searchButton{
+    width: 110px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #31363F;
+    color: #ffff;
+    box-shadow: 1px 3px 5px lightgrey;
+  }
+
+  #clearButton{
+    width: 110px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #cc3838;
+    color: #ffff;
+    box-shadow: 1px 3px 5px lightgrey;
+    border: none;
+  }
+
+  .imglist-wrapper{
+
+    display: flex; /*  column otomatik gelir block gibi davranır */
+    flex-direction: row; /* her eleman içeriği kadar yer kaplar ve eleman yan yana gelir alt satıra geçmez */
+    flex-wrap: wrap; /* sayfa ne zaman taşarsa alt satıra geç */
+    justify-content: center;
+  }
+
+  .imglist-wrapper > .card {
+    margin: 20px;
+  }
+
+  .imglist-wrapper > .card:hover {
+    border: 1px solid grey;
+    padding: 15px ;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px grey;
+  }
